@@ -45,7 +45,7 @@ mappings.update({
 # Convert Super-Shift-<key> to Control-Shift-<key>
 mappings.update({
     K(f"Super-Shift-{key}"): K(f"C-Shift-{key}")
-    for key in ['p', 'n', 'l', 's', 't', 'k', 'z', 'f', 'i', 'd', 'e', 'h', 'ENTER']
+    for key in ['p', 'n', 'l', 's', 't', 'k', 'z', 'f', 'i', 'd', 'e', 'h', 'm', 'ENTER']
 })
 
 mappings.update({
