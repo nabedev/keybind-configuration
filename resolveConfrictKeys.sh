@@ -18,4 +18,5 @@ gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down ['']
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up ['']
 
 # Spotlight feature replaces with Activities
-gsettings set org.gnome.shell.keybindings toggle-overview ['LaunchA', '<Control>space']
+gsettings set org.gnome.shell.keybindings toggle-overview "['LaunchA', '<Control>space']"
+gsettings set org.gnome.shell.keybindings toggle-application-view "['LaunchB']"
