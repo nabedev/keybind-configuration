@@ -17,6 +17,8 @@ define_keymap(lambda wm_class: wm_class == "Code", {
 
     K("Shift-M-DOWN"): K("C-Shift-M-DOWN"),
     K("Shift-M-UP"): K("C-Shift-M-UP"),
+    K("Super-M-DOWN"): K("Shift-Alt-DOWN"),
+    K("Super-M-UP"): K("Shift-Alt-UP"),
 })
 
 define_keymap(lambda wm_class: wm_class in ["Hyper", "Gnome-terminal"], {
